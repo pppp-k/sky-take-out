@@ -1,7 +1,7 @@
 sky:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    host: 101.33.215.232
+    host: localhost
     port: 3306
     database: sky_take_out
     username: root
@@ -10,3 +10,6 @@ sky:
     host: 101.33.215.232
     port: 6379
     database: 0
+  wechat:
+    appid: wxb90bbc1395e72564
+    secret: 25955620176fe5fa33db45c0669341fa

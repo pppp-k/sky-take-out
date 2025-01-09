@@ -34,6 +34,12 @@
     <dependencyManagement>
         <dependencies>
 
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>4.5.13</version>
+            </dependency>
+
             <!-- 图片服务器 -->
             <dependency>
                 <groupId>com.github.tobato</groupId>
